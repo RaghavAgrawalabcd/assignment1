@@ -1,0 +1,33 @@
+.NewApplicant{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.NewApplicant h4{
+    color: #E7E8EA;
+}
+.Message{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+.Message .RightApplication{
+    display: flex;
+    margin-left: 20px;
+    width: 150px;
+}
+.Message .RightApplication .Span{
+    color: #2696F8;
+}
+.Message .RightApplication h5{
+    color: #E7E8EA;
+    padding-left: 10px;
+}
+.Message .LeftApplication{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.Message .LeftApplication .fas{
+    padding-left: 20px;
+}

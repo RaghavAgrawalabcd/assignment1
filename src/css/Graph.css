@@ -1,0 +1,76 @@
+.Graph{
+    display: flex;
+}
+.GraphLeft{
+    display: flex;
+    flex-direction: column;
+    width: 62%;
+    height: 200px;
+    margin: 10px;
+    margin-top: 20px;
+    border: .1px solid #2A2B30;
+    border-radius: 5%;
+}
+.GraphLeft .Headline{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.GraphLeft .Headline h6{
+    color: #E7E8EA;
+}
+.GraphLeft .Headline h5 {
+    color: #E7E8EA;
+}
+.GraphLeft .Headline span{
+    display: flex;
+    align-items: center;
+}
+.GraphLeft .Headline span h6{
+    margin-left: 10px;
+}
+.GraphLeft img{
+    width: 80%;
+    height: 150px;
+    margin-left: 50px;
+}
+.GraphRight {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 200px;
+    align-items: center;
+    margin-top: 20px;
+    border: .1px solid #2A2B30;
+    border-radius: 5%;
+}
+.GraphRight h4{
+    color: #E7E8EA;
+    margin: 10px;
+}
+.GraphRight .List h5{
+    width: 60px;
+}
+.GraphRight ul{
+    margin: 10px;
+}
+.GraphRight li{
+    display: flex;
+    list-style: circle;
+    justify-content: space-around;
+    align-items: center;
+}
+.GraphRight .List .Outer{
+    position: relative;
+    width: 100px;
+    height: 6px;
+    background: #424345;
+    margin: 10px;
+}
+.GraphRight .List .Outer div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+}

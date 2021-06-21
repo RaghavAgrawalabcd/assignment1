@@ -1,0 +1,106 @@
+.Top{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    color: #E7E8EA;
+}
+.Left1{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 62%;
+    border: .1px solid #2A2B30;
+    border-radius: 5px;
+}
+.Left1 .Sub1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.Left1 .Sub1 .Left1Heading{
+    padding: 10px;
+}
+.Left1 .Sub1 .Right1Heading{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.Left1 .Sub2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Left1 .Sub2 .SubCard{
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    border-right: .2px solid #2A2B30;
+}
+.Left1 .Sub2 .SubCard h5{
+    margin-bottom: 10px;
+}
+.Left1 .Sub2 .SubCard h6{
+    color: #2E9CFD;
+}
+.Left1 .Sub3 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-Left: 10px;
+}
+.Left1 .Sub3 .SubButton1{
+    width: 250px;
+    border-radius: 5px;
+    height: 30px;
+    background: #2E9CFD;
+}
+.Left1 .Sub3 .SubButton1 h5{
+    padding: 5px;
+    text-align: center;
+}
+.Left1 .Sub3 .SubButton2 {
+    width: 250px;
+    border-radius: 5px;
+    background: #FE5260;
+    height: 30px;
+}
+.Left1 .Sub3 .SubButton2:hover{
+    cursor: pointer;
+    background: #a70e0e;
+}
+.Left1 .Sub3 .SubButton1:hover {
+    cursor: pointer;
+    background: rgb(17, 86, 109);
+}
+.Left1 .Sub3 .SubButton2 h5 {
+    padding: 5px;
+    text-align: center;
+}
+.Right1 {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 36%;
+    border: .1px solid #2A2B30;
+    border-radius: 5px;
+}
+.Right1 .Right1Top{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+.Right1 .Right1Bottom{
+    left: 25%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background: #6543B4;
+    border-radius: 50%;
+}
+.Right1 .Right1Bottom h4{
+    margin-left: 40px;
+    text-align: center;
+}

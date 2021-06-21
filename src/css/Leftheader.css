@@ -1,0 +1,49 @@
+.LeftHeader {
+    position: relative;
+    top: 0;
+    left: 0;
+    max-height: 100vh;
+    max-width: 40px;
+}
+.LeftHeader .Icons{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.LeftHeader .Icons .Logo {
+    max-height: 40px;
+    max-width: 40px;
+    margin-right: 0;
+    padding-right: 0;
+    margin-bottom: 30px;
+}
+.LeftHeader .Icons .Logo img{
+    max-height: 30px;
+    max-width: 30px;
+}
+.LeftHeader .Icons .Icon{
+    margin-bottom: 20px;
+}
+.LeftHeader .Icons .Icon:hover{
+    border-Right: 4px solid #2696F8;
+    cursor: pointer;
+}
+.fas{
+    color: whitesmoke;
+}
+.far {
+    color: whitesmoke;
+}
+.LeftHeader .Icons .Icon .fas:hover{
+    color: #2696F8;
+}
+.LeftHeader .Icons .Icon .far:hover {
+    color: #2696F8;
+}
+.LeftHeader .Setting .fas{
+    color: #E7E8EA;
+    margin-top: 750%;
+}
+.LeftHeader .Setting .fas:hover{
+    color: #2696F8;
+}
